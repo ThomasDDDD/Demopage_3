@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <!--Navigation with Titel Logo and Phone number-->
+    <nav>
+      <img src="./src/images/logo/logo1.png" />
+      <h2>Your Company</h2>
+      <h4>we work, you live</h4>
+      <h4><a href="tel:+49123456789">+49 1234 56789</a></h4>
+      <ul>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Catalog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--Header with Img Logo and name-->
+    <header>
+      <div>
+        <div>
+          <h3>-think cosy-</h3>
+          <h1>Company & Company</h1>
+          <img src="./src/images/logo/logo1.png" />
+        </div>
+      </div>
+    </header>
+
+    <!--Searchbar-->
+    <section class="search">
+      <form>
+        <label for="city">Location</label>
+        <input type="text" id="city" placeholder="Search city or zip" />
+        <label for="min_price">Min-Price</label>
+        <input type="number" id="min_price" placeholder="$" />
+        <label for="max_price">Min-Price</label>
+        <input type="number" id="max_price" placeholder="$" />
+        <label for="beds">Bedrooms</label>
+        <select id="beds">
+          <option displayed selected value="any">Any</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="6">6 or more</option>
+        </select>
+        <label for="bath">Bedrooms</label>
+        <select id="bath">
+          <option displayed selected value="any">Any</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="6">6 or more</option>
+        </select>
+        <button type="button"><i>lupe</i></button>
+      </form>
+    </section>
+
+    <!--Card Section for Top advertisement-->
+    <section class="cards">
+      <h2><span>Top</span> Listings</h2>
+      <card>
+        <img src="./src/images/outsinde/outsindB1.jpg.jpg" />
+        <h3>Modern City Living: Luxury Condo</h3>
+        <p><span>$359.00</span> (for Sale)</p>
+        <p>Squaremeters: 135</p>
+        <p>bathrooms: 3</p>
+        <p>bedrooms: 4</p>
+      </card>
+      <card>
+        <img src="./src/images/outsinde/outsindB2.jpg.jpg" />
+        <h3>Charming Urban Oasis: Prime Location</h3>
+        <p><span>$ 359.000</span> (for Sale)</p>
+        <p>Squaremeters: 110</p>
+        <p>bathrooms: 2</p>
+        <p>bedrooms: 5</p>
+      </card>
+      <card>
+        <img src="./src/images/outsinde/outsindB3.jpg.jpg" />
+        <h3>Downtown Loft: Stylish Living</h3>
+        <p><span>$ 239.000</span> (for Sale)</p>
+        <p>Squaremeters: 105</p>
+        <p>bathrooms: 1</p>
+        <p>bedrooms: 2</p>
+      </card>
+      <card>
+        <img src="./src/images/outsinde/outsindB4.jpg.jpg" />
+        <h3>Spacious Family Home: Tranquil Suburbia</h3>
+        <p><span>$1.359.000</span> (for Sale)</p>
+        <p>Squaremeters: 267</p>
+        <p>bathrooms: 5</p>
+        <p>bedrooms: 4</p>
+      </card>
+      <card>
+        <img src="./src/images/outsinde/outsindB5.jpg.jpg" />
+        <h3>Contemporary Urban Living: Designer Apartment</h3>
+        <p><span>$289.00</span> (for Sale)</p>
+        <p>Squaremeters: 120</p>
+        <p>bathrooms: 1</p>
+        <p>bedrooms: 2</p>
+      </card>
+      <card>
+        <img src="./src/images/outsinde/outsindB7.jpg.jpg" />
+        <h3>Investment Opportunity: High-Yield Property</h3>
+        <p><span>$859.00</span> (for Sale)</p>
+        <p>Squaremeters: 338</p>
+        <p>bathrooms: 4</p>
+        <p>bedrooms: 7</p>
+      </card>
+    </section>
+
+    <!--Info section -->
+    <section class="info">
+      <div>
+        <h2>Get Notified of new Homes For Sale</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius
+          impedit velit doloribus dolor ab maiores nemo veniam quisquam debitis?
+          Adipisci fugiat ad fuga quae enim nesciunt dolorem explicabo
+          voluptate, iste placeat expedita nostrum quasi.
+        </p>
+        <button type="button"><a href="#">Newsletter</a></button>
+      </div>
+      <div>
+        <h2>thinking of selling your Home?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius
+          impedit velit doloribus dolor ab maiores nemo veniam quisquam debitis?
+          Adipisci fugiat ad fuga quae enim nesciunt dolorem explicabo
+          voluptate, iste placeat expedita nostrum quasi.
+        </p>
+        <button type="button"><a href="#">Contact us</a></button>
+      </div>
+    </section>
+
+    <!--popular search links-->
+    <section class="popular">
+      <h2><span>Popular</span> Searches</h2>
+      <a href="#">Austin</a>
+      <a href="#">Houston</a>
+      <a href="#">Dallas</a>
+      <a href="#">San Antonio</a>
+      <a href="#">Fort Worth</a>
+      <a href="#">El Paso</a>
+      <a href="#">Arlington</a>
+      <a href="#">Plano</a>
+      <a href="#">Corpus Christi</a>
+    </section>
+
+    <!--Footer with links name logo and comments-->
+    <footer>
+      <div class="f_social">
+        <i>fb</i>
+        <i>mail</i>
+        <i>...</i>
+      </div>
+      <div class="f_Company">
+        <h2>Company<span>&</span>Company</h2>
+        <a href="Tel:+49123456789">+49 123456789</a>
+        <p>Mrs. Company Boss</p>
+      </div>
+      <div class="f_logo">
+        <img src="./src/images/logo/logo1.png" />
+        <h3>Company of Company</h3>
+      </div>
+      <div class="f_line">
+        <h4>Web Manager - Mr.Takka-T</h4>
+        <p>Designed by Justin Arnest</p>
+        <p><i>c2024</i>All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

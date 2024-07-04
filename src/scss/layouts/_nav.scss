@@ -10,25 +10,24 @@ nav {
     aspect-ratio: 3/1;
     object-fit: contain;
     overflow: hidden;
-    border: 1px solid red;
   }
   div:nth-of-type(1) {
     width: 70%;
     min-width: 250px;
     text-align: start;
     padding: 10px;
-    border: 1px solid red;
+
     h2 {
       color: $fontLight;
-      text-shadow: 2px 2px 5px $highligthGold;
+      text-shadow: 1px 1px 5px $baseBlackShadow;
     }
     h4 {
       color: $keyGold;
       font-style: italic;
+      text-shadow: 1px 1px 5px $baseBlackShadow;
     }
   }
   div:nth-of-type(2) {
-    border: 1px solid red;
     width: 100%;
     min-width: 358px;
     display: flex;
@@ -41,7 +40,7 @@ nav {
         width: 24%;
         aspect-ratio: 4/1;
         border: 1px solid $keyGold;
-        box-shadow: 0 0 5px $highligthGold;
+        box-shadow: 0 0 2px $highligthGold;
         display: flex;
         a {
           text-decoration: none;
@@ -53,14 +52,13 @@ nav {
           align-items: center;
           font-weight: bold;
           color: $keyGold;
-          border: 1px solid green;
         }
       }
     }
     h3 {
       text-align: end;
       padding: 0 10px;
-      text-shadow: 2px 2px 5px $highligthGold;
+      text-shadow: 1px 1px 5px $baseBlackShadow;
       a {
         text-decoration: none;
         color: $fontLight;
@@ -71,8 +69,4 @@ nav {
       }
     }
   }
-}
-.gradient {
-  background: linear-gradient($baseBlackOpacity, rgba(128, 128, 128, 0));
-  height: 15vh;
 }

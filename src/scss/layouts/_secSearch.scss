@@ -1,0 +1,24 @@
+.search {
+  min-height: 20vh;
+  background-color: $baseBlack;
+  padding: 2vh 5vw;
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    label {
+      background-color: aqua;
+      width: 10%;
+    }
+    input {
+      width: 20%;
+    }
+    select {
+      width: 20%;
+    }
+    button {
+      width: 50%;
+    }
+  }
+}

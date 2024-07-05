@@ -165,6 +165,31 @@ header > div:nth-of-type(2) img {
   left: 40%;
 }
 
+.search {
+  min-height: 20vh;
+  background-color: #20241f;
+  padding: 2vh 5vw;
+}
+.search form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.search form label {
+  background-color: aqua;
+  width: 10%;
+}
+.search form input {
+  width: 20%;
+}
+.search form select {
+  width: 20%;
+}
+.search form button {
+  width: 50%;
+}
+
 @media only screen and (min-width: 1025px) {
   nav img {
     width: 20%;

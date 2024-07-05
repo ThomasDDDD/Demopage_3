@@ -14,7 +14,7 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(1.4rem, 5vw, 3.4rem);
+  font-size: clamp(1.2rem, 5vw, 3.2rem);
 }
 
 h2 {
@@ -34,7 +34,7 @@ a {
 }
 
 h3 > a {
-  font-size: clamp(1rem, 3vw, 2.2rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
 }
 
 img {
@@ -62,7 +62,7 @@ nav div:nth-of-type(1) {
   padding: 10px;
 }
 nav div:nth-of-type(1) h2 {
-  color: white;
+  color: rgba(255, 255, 255, 0.856);
   text-shadow: 1px 1px 5px rgba(32, 36, 31, 0.9176470588);
 }
 nav div:nth-of-type(1) h4 {
@@ -81,6 +81,7 @@ nav div:nth-of-type(2) ul {
   display: flex;
   justify-content: center;
   gap: 5px;
+  padding: 0 3%;
 }
 nav div:nth-of-type(2) ul li {
   width: fit-content;
@@ -88,7 +89,7 @@ nav div:nth-of-type(2) ul li {
   flex: 1;
   aspect-ratio: 4/1;
   border: 1px solid #df9e25;
-  box-shadow: 0 0 2px #d1a683;
+  box-shadow: 0 0 2px #e09d66;
   display: flex;
 }
 nav div:nth-of-type(2) ul li a {
@@ -99,17 +100,22 @@ nav div:nth-of-type(2) ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
+  font-weight: 600;
   color: #df9e25;
+  text-shadow: 1px 1px 5px rgba(32, 36, 31, 0.9176470588);
+}
+nav div:nth-of-type(2) ul li a:hover {
+  color: rgba(255, 255, 255, 0.856);
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.856);
 }
 nav div:nth-of-type(2) h3 {
   text-align: end;
-  padding: 0 10px;
+  padding: 0 8%;
   text-shadow: 1px 1px 5px rgba(32, 36, 31, 0.9176470588);
 }
 nav div:nth-of-type(2) h3 a {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.856);
 }
 nav div:nth-of-type(2) h3 a:hover {
   cursor: pointer;
@@ -120,7 +126,7 @@ header {
   background-image: url(/src/images/stil/stil2.jpg.jpg);
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
 }
@@ -140,12 +146,14 @@ header > div:nth-of-type(2) {
 }
 header > div:nth-of-type(2) h4 {
   text-align: center;
+  margin-top: 1%;
   color: #df9e25;
+  font-style: italic;
   text-shadow: 1px 1px 5px rgba(32, 36, 31, 0.9176470588);
 }
 header > div:nth-of-type(2) h1 {
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.856);
   text-shadow: 1px 1px 5px rgba(32, 36, 31, 0.9176470588);
 }
 header > div:nth-of-type(2) img {
@@ -153,7 +161,7 @@ header > div:nth-of-type(2) img {
   aspect-ratio: 3/1;
   object-fit: contain;
   position: absolute;
-  top: -50%;
+  top: -47%;
   left: 40%;
 }
 

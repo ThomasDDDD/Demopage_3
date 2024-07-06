@@ -1,7 +1,12 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Arsenal SC", sans-serif;
 }
 
 h1,
@@ -35,6 +40,20 @@ a {
 
 h3 > a {
   font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+label {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+
+input,
+select {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+
+button {
+  font-size: clamp(0.8rem, 2vw, 1.4rem);
+  font-family: "Arsenal SC", sans-serif;
 }
 
 img {
@@ -89,7 +108,7 @@ nav div:nth-of-type(2) ul li {
   flex: 1;
   aspect-ratio: 4/1;
   border: 1px solid #df9e25;
-  box-shadow: 0 0 2px #e09d66;
+  box-shadow: 0 0 2px #ffd9ba;
   display: flex;
 }
 nav div:nth-of-type(2) ul li a {
@@ -166,30 +185,92 @@ header > div:nth-of-type(2) img {
 }
 
 .search {
-  min-height: 20vh;
+  min-height: 15vh;
   background-color: #20241f;
-  padding: 2vh 5vw;
+  padding: 2vh 0;
 }
 .search form {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 5px;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 5px;
+  gap: 1vh;
 }
-.search form label {
-  background-color: aqua;
-  width: 10%;
+.search form div {
+  color: rgba(255, 255, 255, 0.856);
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  padding: 1vh 1vw 0 1vw;
+  border-top: 2px solid #df9e25;
 }
-.search form input {
-  width: 20%;
+.search form div:nth-of-type(1) {
+  width: 100%;
 }
-.search form select {
-  width: 20%;
+.search form div label {
+  width: 30%;
+  color: #df9e25;
+}
+.search form div input {
+  width: 70%;
+  height: 100%;
+  background-color: §baseWhiteOpacity;
+  padding-left: 1vw;
+  color: rgba(32, 36, 31, 0.6980392157);
+  border-radius: 5px;
+  border: none;
+}
+.search form div select {
+  width: 70%;
+  height: 100%;
+  background-color: §baseWhiteOpacity;
+  padding-left: 1vw;
+  color: rgba(32, 36, 31, 0.6980392157);
+  border-radius: 5px;
+  border: none;
+}
+.search form div select:hover {
+  cursor: pointer;
 }
 .search form button {
-  width: 50%;
+  width: 100%;
+  height: 4vh;
+  margin: 2vh auto 0 auto;
+  box-shadow: 0 0 5px #df9e25, inset 0 0 40px #ffd9ba;
+  background-color: rgba(255, 255, 255, 0.9058823529);
+  color: rgba(32, 36, 31, 0.6980392157);
+  text-shadow: 1px 1px 1px #df9e25;
+  border: 1px solid #df9e25;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.search form button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px #df9e25;
+  color: #df9e25;
+  text-shadow: 1px 1px 1px rgba(32, 36, 31, 0.6980392157);
 }
 
+@media only screen and (min-width: 760px) {
+  .search form div {
+    width: 48%;
+  }
+  .search form div:nth-of-type(1) label {
+    width: 14%;
+  }
+  .search form div:nth-of-type(1) input {
+    width: 86%;
+  }
+  .search form button {
+    width: 70%;
+  }
+}
 @media only screen and (min-width: 1025px) {
   nav img {
     width: 20%;

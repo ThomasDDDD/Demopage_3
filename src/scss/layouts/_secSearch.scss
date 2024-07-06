@@ -1,24 +1,76 @@
 .search {
-  min-height: 20vh;
+  min-height: 15vh;
   background-color: $baseBlack;
-  padding: 2vh 5vw;
+  padding: 2vh 0;
+
   form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-    label {
-      background-color: aqua;
-      width: 10%;
-    }
-    input {
-      width: 20%;
-    }
-    select {
-      width: 20%;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    gap: 1vh;
+
+    div {
+      color: $fontLight;
+      width: 100%;
+      height: 5vh;
+      display: flex;
+      align-items: center;
+      padding: 1vh 1vw 0 1vw;
+      border-top: 2px solid $keyGold;
+      &:nth-of-type(1) {
+        width: 100%;
+      }
+      label {
+        width: 30%;
+        color: $keyGold;
+      }
+      input {
+        width: 70%;
+        height: 100%;
+        background-color: §baseWhiteOpacity;
+        padding-left: 1vw;
+        color: $baseBlackOpacity;
+        border-radius: 5px;
+        border: none;
+      }
+      select {
+        width: 70%;
+        height: 100%;
+        background-color: §baseWhiteOpacity;
+        padding-left: 1vw;
+        color: $baseBlackOpacity;
+        border-radius: 5px;
+        border: none;
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
     button {
-      width: 50%;
+      width: 100%;
+      height: 4vh;
+      margin: 2vh auto 0 auto;
+      box-shadow: 0 0 5px $keyGold, inset 0 0 40px $highligthGold;
+      background-color: $baseWhiteOpacity;
+
+      color: $baseBlackOpacity;
+      text-shadow: 1px 1px 1px $keyGold;
+
+      border: 1px solid $keyGold;
+      border-radius: 5px;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 1px;
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 20px $keyGold;
+        color: $keyGold;
+        text-shadow: 1px 1px 1px $baseBlackOpacity;
+      }
     }
   }
 }

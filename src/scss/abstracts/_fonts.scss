@@ -23,6 +23,17 @@ a {
 h3 > a {
   font-size: clamp(1rem, 1.5vw, 2rem);
 }
+label {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+input,
+select {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+button {
+  font-size: clamp(0.8rem, 2vw, 1.4rem);
+  font-family: "Arsenal SC", sans-serif;
+}
 // h5 {
 //   font-size: clamp(14px, 50vw, 30px);
 // }

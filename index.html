@@ -16,6 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/667f1967cc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./src/styles/main.css" />
   </head>
   <body>
@@ -53,31 +60,41 @@
     <!--Searchbar-->
     <section class="search">
       <form>
-        <label for="city">Location</label>
-        <input type="text" id="city" placeholder="Search city or zip" />
-        <label for="min_price">Min-Price</label>
-        <input type="number" id="min_price" placeholder="$" />
-        <label for="max_price">Min-Price</label>
-        <input type="number" id="max_price" placeholder="$" />
-        <label for="beds">Bedrooms</label>
-        <select id="beds">
-          <option displayed selected value="any">Any</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="6">6 or more</option>
-        </select>
-        <label for="bath">Bedrooms</label>
-        <select id="bath">
-          <option displayed selected value="any">Any</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="6">6 or more</option>
-        </select>
-        <button type="button"><i>search</i></button>
+        <div>
+          <label for="city">Location</label>
+          <input type="text" id="city" placeholder="Search city or zip" />
+        </div>
+        <div>
+          <label for="min_price">Min-Price</label>
+          <input type="number" id="min_price" placeholder="0 $" />
+        </div>
+        <div>
+          <label for="max_price">Max-Price</label>
+          <input type="number" id="max_price" placeholder="10,000,000 $" />
+        </div>
+        <div>
+          <label for="beds">Bedrooms</label>
+          <select id="beds">
+            <option displayed selected value="any">Any</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="6">6 or more</option>
+          </select>
+        </div>
+        <div>
+          <label for="bath">Bedrooms</label>
+          <select id="bath">
+            <option displayed selected value="any">Any</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="6">6 or more</option>
+          </select>
+        </div>
+        <button type="button"><i class="fa-solid fa-magnifying-glass"></i> SEARCH</button>
       </form>
     </section>
 

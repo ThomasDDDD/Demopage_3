@@ -28,10 +28,10 @@
     justify-content: center;
     text-decoration: none;
     color: $baseBlack;
-    box-shadow: 0 0 5px $baseWhiteOpacity, inset 0 0 5px $keyGold;
+    box-shadow: 0 0 5px $baseWhiteOpacity;
     font-weight: bold;
-    background-color: $baseWhiteOpacity;
-    border: 1px solid $keyGold;
+    background-color: $baseWhiteShadow;
+    border: none;
     border-radius: 5px;
     font-style: italic;
     letter-spacing: 1px;

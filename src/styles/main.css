@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1.2rem, 5vw, 3rem);
+  font-size: clamp(1.8rem, 5vw, 3rem);
 }
 
 h3 {
@@ -419,10 +419,10 @@ header > div:nth-of-type(2) img {
   justify-content: center;
   text-decoration: none;
   color: #20241f;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.9058823529), inset 0 0 5px #df9e25;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.9058823529);
   font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.9058823529);
-  border: 1px solid #df9e25;
+  background-color: rgba(255, 251, 242, 0.9176470588);
+  border: none;
   border-radius: 5px;
   font-style: italic;
   letter-spacing: 1px;

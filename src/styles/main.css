@@ -37,7 +37,7 @@ h5 {
 }
 
 a {
-  font-size: clamp(0.8rem, 4vw, 1.2rem);
+  font-size: clamp(0.8rem, 3vw, 1.2rem);
 }
 
 h3 > a {
@@ -386,6 +386,53 @@ header > div:nth-of-type(2) img {
   background: linear-gradient(rgba(255, 255, 255, 0.158), rgba(0, 0, 0, 0.753)), url(/src/images/inside/insideA1.jpg.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.popular {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2vh 5% 4vh 5%;
+  gap: 2vh;
+  background-color: #20241f;
+}
+.popular h2 {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9058823529);
+  text-align: center;
+  padding: 2vh 1vw;
+  text-shadow: 1px 1px 1px #df9e25;
+}
+.popular h2 span {
+  color: #df9e25;
+  text-shadow: 1px 1px 1px rgba(255, 251, 242, 0.9176470588);
+  font-size: clamp(1.7rem, 7vw, 4rem);
+}
+.popular a {
+  width: 30%;
+  aspect-ratio: 7/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #20241f;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.9058823529), inset 0 0 5px #df9e25;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.9058823529);
+  border: 1px solid #df9e25;
+  border-radius: 5px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #ffd9ba;
+}
+.popular a:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px #df9e25, inset 0 0 20px #ffd9ba;
+  color: #df9e25;
+  text-shadow: 1px 1px 1px #20241f;
 }
 
 @media only screen and (min-width: 760px) {

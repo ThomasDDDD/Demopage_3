@@ -17,6 +17,7 @@
       color: $fontLight;
       width: 100%;
       height: 5vh;
+      min-height: 35px;
       display: flex;
       align-items: center;
       padding: 1vh 1vw 0 1vw;
@@ -53,23 +54,21 @@
     button {
       width: 100%;
       height: 4vh;
+      min-height: 30px;
       margin: 2vh auto 0 auto;
-      box-shadow: 0 0 5px $keyGold, inset 0 0 40px $highligthGold;
-      background-color: $baseWhiteOpacity;
-
+      box-shadow: inset 0 0 10px $highligthGold;
+      background-color: $baseWhite;
       color: $baseBlackOpacity;
       text-shadow: 1px 1px 1px $keyGold;
-
-      border: 1px solid $keyGold;
+      border: 2px solid $keyGold;
       border-radius: 5px;
-
       font-style: italic;
       letter-spacing: 1px;
       &:hover {
         cursor: pointer;
-        box-shadow: 0 0 20px $keyGold;
+        box-shadow: 0 0 15px $keyGold;
         color: $keyGold;
-        text-shadow: 1px 1px 1px $baseBlackOpacity;
+        // text-shadow: 1px 1px 1px $baseBlackOpacity;
       }
     }
   }

@@ -37,7 +37,7 @@
       letter-spacing: 1px;
       &:hover {
         cursor: pointer;
-        box-shadow: 0 0 15px $keyGold, inset 0 0 20px $highligthGold;
+        box-shadow: 0 0 10px $keyGold, inset 0 0 15px $highligthGold;
         a {
           color: $keyGold;
           text-shadow: 1px 1px 1px $baseBlack;
@@ -52,12 +52,12 @@
   }
   div:nth-of-type(1) {
     background: linear-gradient(rgba(255, 255, 255, 0.158), rgba(0, 0, 0, 0.753)),
-      url(/src/images/inside/insideA10.jpg.jpg);
+      url(../images/inside/insideA10.jpg.jpg);
     background-position: center;
   }
   div:nth-of-type(2) {
     background: linear-gradient(rgba(255, 255, 255, 0.158), rgba(0, 0, 0, 0.753)),
-      url(/src/images/inside/insideA1.jpg.jpg);
+      url(../images/inside/insideA1.jpg.jpg);
     background-position: center;
     background-size: cover;
   }

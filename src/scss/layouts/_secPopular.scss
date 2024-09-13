@@ -37,7 +37,7 @@
     text-shadow: 1px 1px 1px $highligthGold;
     &:hover {
       cursor: pointer;
-      box-shadow: 0 0 15px $keyGold, inset 0 0 20px $highligthGold;
+      box-shadow: 0 0 10px $keyGold, inset 0 0 10px $highligthGold;
       color: $keyGold;
       text-shadow: 1px 1px 1px $baseBlack;
     }

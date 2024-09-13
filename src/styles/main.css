@@ -160,7 +160,7 @@ nav div:nth-of-type(2) h3 a:hover {
 }
 
 header {
-  background-image: url(/src/images/stil/stil2.jpg.jpg);
+  background-image: url(../images/stil/stil2.jpg);
   background-size: cover;
   background-position: center;
   min-height: 50vh;
@@ -272,7 +272,7 @@ header > div:nth-of-type(2) img {
 }
 .search form button:hover {
   cursor: pointer;
-  box-shadow: 0 0 15px #df9e25;
+  box-shadow: 0 0 8px #df9e25;
   color: #df9e25;
 }
 
@@ -370,7 +370,7 @@ header > div:nth-of-type(2) img {
 }
 .info div button:hover {
   cursor: pointer;
-  box-shadow: 0 0 15px #df9e25, inset 0 0 20px #ffd9ba;
+  box-shadow: 0 0 10px #df9e25, inset 0 0 15px #ffd9ba;
 }
 .info div button:hover a {
   color: #df9e25;
@@ -382,11 +382,11 @@ header > div:nth-of-type(2) img {
   text-shadow: 1px 1px 1px #ffd9ba;
 }
 .info div:nth-of-type(1) {
-  background: linear-gradient(rgba(255, 255, 255, 0.158), rgba(0, 0, 0, 0.753)), url(/src/images/inside/insideA10.jpg.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.158), rgba(0, 0, 0, 0.753)), url(../images/inside/insideA10.jpg.jpg);
   background-position: center;
 }
 .info div:nth-of-type(2) {
-  background: linear-gradient(rgba(255, 255, 255, 0.158), rgba(0, 0, 0, 0.753)), url(/src/images/inside/insideA1.jpg.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.158), rgba(0, 0, 0, 0.753)), url(../images/inside/insideA1.jpg.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -432,7 +432,7 @@ header > div:nth-of-type(2) img {
 }
 .popular a:hover {
   cursor: pointer;
-  box-shadow: 0 0 15px #df9e25, inset 0 0 20px #ffd9ba;
+  box-shadow: 0 0 10px #df9e25, inset 0 0 10px #ffd9ba;
   color: #df9e25;
   text-shadow: 1px 1px 1px #20241f;
 }
